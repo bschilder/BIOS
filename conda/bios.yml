@@ -4,6 +4,14 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.10
+  - pandas
+  - ipykernel
+  - ipywidgets
+  - pooch
+  - tqdm
+  - entrypoints
+  - seaborn
+  - scikit-learn
   - pip
   - pip:
     - torch>=2.0
